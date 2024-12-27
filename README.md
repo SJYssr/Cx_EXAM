@@ -4,22 +4,17 @@
 此脚本为易语言编写，修改搜索框内容需要有易语言编辑器</br>
 第一次使用时需要将两个模块的地址改为自己的地址</br>
 ---------------------
-<font color=#7FFF00 size=5>搜索框内容修改方法</font></br>
-<font color=#00FFFF size=3>使用易语言编辑器打开脚本文件</font></br>
-<font color=#FF1493 size=3>1.点击属性按钮</font></br>
-![image](./README_PNG/1.png)</br>
-<font color=#FF1493 size=3>2.在属性下拉框选择超级编辑框1</font></br>
-![image](./README_PNG/2.png)</br>
-<font color=#FF1493 size=3>3.找到内容一栏，点击后面三个点</font></br>
-![image](./README_PNG/3.png)</br>
-<font color=#FF1493 size=3>4.点击导入文本</font></br>
-<font color=#B22222 size=3>文本必须为ANSI编码格式的txt文件</font></br>
-![image](./README_PNG/4.png)</br>
-<font color=#7FFF00 size=5>使用方法</font></br>
-<font color=#00FFFF size=3>在静态编译后打开exe文件</font></br>
-<font size=4>运行后无任何显示为正常现象，此时打开学习通考试端</font></br>
-<font size=3>鼠标移至左下角则会显示搜索框</font></br>
-![image](./README_PNG/5.png)</br>
+
+## 使用说明
+- 1.此为源码，现在已经更新，可以直接使用
+- 2.使用时需要在文件夹下有tiku.txt文件，文件格式为：ANSI
+- 3.直接运行自动将文件夹下的tiku.txt文件导入
+# txt文件转ANSI格式方法
+- 1.打开txt文件
+- 2.右键单击文件，选择另存为
+- 3.在另存为窗口中，选择编码为ANSI
+- 4.保存文件
+## 注意[release](https://github.com/SJYssr/Cx_EXAM/releases/tag/V1.0.0)已经有打包完成的软件包可直接使用
 
 1.右键单击搜索框  搜索框隐身/显现</br>
 2.在上方搜索框搜索文字 左键单击后面按钮 下方搜索框会定位到搜索的文字（搜索的文字要以导入的格式为标准，不会舍去空格等符号，英文无需区分大小写）</br>
